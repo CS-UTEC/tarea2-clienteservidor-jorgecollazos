@@ -1,0 +1,36 @@
+article {
+	background-color: #B2D5FF;
+	margin-top: 30px;
+	width: 40%;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+
+body{
+	background-color: #D5D7D7;
+	font-style: italic;
+}
+
+nav {
+	background-color: #B2D5FF;
+	width: 40%;
+	padding: 50px;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+
+h1{
+	font-size: 40px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+section{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+hr {
+	margin: 0px;
+	border: 2px solid #B2D5FF;
+}
