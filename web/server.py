@@ -11,7 +11,8 @@ app = Flask(__name__)
 @app.route('/palindrome/<palabra>')
 def palindrome(palabra):
     txt = palabra
-    if(txt == txt[::-1]):
+    txt2 = txt.lower()
+    if(txt2 == txt2[::-1]):
         txt_re = palabra + " es palindromo"
         return(txt_re)
     else:
